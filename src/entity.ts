@@ -1,6 +1,6 @@
 import isEqual from 'lodash-es/isEqual';
 
-import { Diagnostic, Severity } from 'validation';
+import { Diagnostic, Severity } from './validation';
 
 interface BaseEntity {
     /**
