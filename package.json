@@ -1,9 +1,9 @@
 {
     "name": "controlled-input",
-    "version": "0.9.0-beta.0",
+    "version": "0.9.0-beta.1",
     "description": "Lean, composable React input library",
-    "main": "dist/src/index.js",
-    "types": "dist/src/index.d.ts",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
     "author": "Ted Driggs <t.driggs@extrahop.com>",
     "license": "BSD-2",
     "scripts": {
