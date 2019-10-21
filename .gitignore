@@ -1,0 +1,68 @@
+build
+dist
+install
+**/build
+node_modules/**
+tmp
+.awcache
+.grunt
+.grunt-newer-cache
+.cache-loader
+.npm
+.happypack
+.tscache
+.xdg
+_SpecRunner.html
+**/.baseDir.ts
+docs
+
+# build-storybook depends on the storybook-cli package which is meant to be installed
+# as a global module. If someone's version is different or someone is runnning build-storybook
+# on the first time, it might produce storybook-static.
+storybook-static
+
+# macOS Ignores
+# https://github.com/github/gitignore/blob/master/Global/macOS.gitignore
+
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Linux Ignores
+# https://github.com/github/gitignore/blob/master/Global/Linux.gitignore
+*~
+
+# temporary files which can be created if a process still has a handle open of a deleted file
+.fuse_hidden*
+
+# KDE directory preferences
+.directory
+
+# Linux trash folder which might appear on any partition or disk
+.Trash-*
+
+# .nfs files are created when an open file is removed but is still being accessed
+.nfs*
+
+.jshintrc
+
