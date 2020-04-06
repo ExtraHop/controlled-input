@@ -23,6 +23,6 @@
         "@types/lodash-es": "^4.17.3",
         "@types/node": "^12.7.5",
         "@types/react": "16.9.5",
-        "tslint": "5.20.0"
+        "tslint": "6.1.1"
     }
 }
