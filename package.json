@@ -8,6 +8,7 @@
     "license": "BSD-2",
     "scripts": {
         "build": "./node_modules/typescript/bin/tsc",
+        "prepare": "npm run build",
         "watch": "./node_modules/typescript/bin/tsc --watch"
     },
     "dependencies": {
