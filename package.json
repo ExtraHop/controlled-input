@@ -8,6 +8,10 @@
     "license": "BSD-2",
     "scripts": {
         "build": "./node_modules/typescript/bin/tsc",
+        "tslint:allHasErrors": "FILE='src/**/*.+(ts|tsx)' npm run tslint:hasErrors",
+        "tslint:fixAll": "FILE='src/**/*.+(ts|tsx)' npm run tslint:fix",
+        "tslint:fix": "tslint --force --fix --project tsconfig.json $FILE",
+        "tslint:hasErrors": "tslint --project tsconfig.json $FILE",
         "watch": "./node_modules/typescript/bin/tsc --watch"
     },
     "dependencies": {
