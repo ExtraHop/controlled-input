@@ -1,7 +1,7 @@
 import flatMap from 'lodash-es/flatMap';
 
 import { ObjectPath } from './objectPath';
-import { Diagnostic } from './Diagnostic';
+import { Diagnostic } from './diagnostic';
 
 /**
  * A function that evaluates a value and returns a list of diagnostic messages
